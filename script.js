@@ -45,7 +45,7 @@ let weather = {
   
   document
     .querySelector(".search-bar")
-    .addEventListener("keyup", function (event) {
+    .addEventListener("keypress", function (event) {
       if (event.key == "Enter") {
         weather.search();
       }
